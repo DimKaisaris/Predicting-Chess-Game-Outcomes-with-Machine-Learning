@@ -21,7 +21,7 @@ Structure of the project:
 4. Sample Predictions
 
 - 📄 Full PDF report: **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**   
-- 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**
+- 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**  
   
 ---
 
@@ -33,7 +33,7 @@ The full EDA was conducted in Jupyter using Pandas, Matplotlib and Seaborn. Key 
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
 2. **Draw Rate Anomalies:** High draw rate below 1000 Elo (!), possibly due to stalemates and repetition  
 3. **Opening Insights:** The Scandinavian Defense surprisingly outperforms for Black under 2000 Elo  
-4. **Blitz Surprise:** Black outperforms White in Blitz in lower Elo ranges
+4. **Blitz Surprise:** Black outperforms White in Blitz in lower Elo ranges 
    
 ---
 
