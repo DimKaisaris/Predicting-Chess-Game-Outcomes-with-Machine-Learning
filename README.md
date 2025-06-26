@@ -13,25 +13,26 @@ In this project I investigate and predict the outcomes of chess games using mach
 
 ---
 
-## Core 
-The structure of the project is : 
+## Files & Code Structure  
+Structure of the project: 
 1. Exploratory Data Analysis   
 2. Classification Models 
 3. Regression Models
 4. Sample Predictions
 
-All the details are reported in the following **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**
+- 📄 Full PDF report: **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**   
+- 📁 Jupyter notebooks: **[here}()
+- 📊 Data file: `data_ML.csv` (cleaned dataset)  
+- 📘 Prediction results and dummy models included in `Part2_class_...ipynb` notebooks  
 ---
 
 ## Exploratory Data Analysis  
 The full EDA was conducted in Jupyter using Matplotlib and Seaborn. Key findings:
 
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
-2. **Draw Rate Anomalies:** Highest draw rate below 1000 Elo (!), possibly due to stalemates and repetition  
+2. **Draw Rate Anomalies:** High draw rate below 1000 Elo (!), possibly due to stalemates and repetition  
 3. **Opening Insights:** The Scandinavian Defense surprisingly outperforms for Black under 2000 Elo  
 4. **Blitz Surprise:** Black outperforms White in Blitz in lower Elo ranges  
-5. **Elo Gap Correlation:** Accuracy improves with wider Elo difference (up to 71% at 200+ Elo gap)
-
 ---
 
 ## Classification Models  
@@ -77,14 +78,6 @@ Output: Black Win: 50.5%, Draw: 4.1%, White Win: 45.5%
 
 ---
 
-
-## Files & Code Structure  
-- 📄 Full PDF report: **[Final_05.05.2025.pdf](./Final_05.05.2025.pdf)**  
-- 📁 Jupyter notebooks: Classification, Regression, EDA, Custom Models  
-- 📊 Data file: `data_ML.csv` (cleaned dataset)  
-- 📘 Prediction results and dummy models included in `Part2_class_...ipynb` notebooks  
-
----
 
 ## Author  
 **Dimitris Kaisaris**  
