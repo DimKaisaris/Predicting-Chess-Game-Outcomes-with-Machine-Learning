@@ -1,11 +1,7 @@
 # Predicting-Chess-Game-Outcomes-with-Machine-Learning
 
-
-# Chess-Game-Outcome-Predictions  
-## Machine Learning & Statistical Insights on 168,000 Lichess Games  
-
 ## Project Overview  
-This project investigates and predicts the outcomes of chess games using data-driven techniques. Drawing from over 168,000 games on Lichess.org — including bullet, blitz, rapid, and classical formats — the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
+This project investigates and predicts the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
 
 **Key Goals:**  
 - Understand how player Elo, time formats, and openings affect outcomes  
