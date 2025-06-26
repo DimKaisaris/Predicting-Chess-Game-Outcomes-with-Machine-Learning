@@ -1,4 +1,4 @@
-# Predicting-Chess-Game-Outcomes-with-Machine-Learning
+# Predicting-Chess-Game-Outcomes-with-Machine-Learning 
 
 ## Project Overview  
 In this project I investigate and predict the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
@@ -24,9 +24,10 @@ Structure of the project:
 - 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**
 ---
 
+## Some Brief Findings:
 
 ## Exploratory Data Analysis  
-The full EDA was conducted in Jupyter using Matplotlib and Seaborn. Key findings:
+The full EDA was conducted in Jupyter using Pandas, Matplotlib and Seaborn. Key findings:
 
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
 2. **Draw Rate Anomalies:** High draw rate below 1000 Elo (!), possibly due to stalemates and repetition  
@@ -79,6 +80,4 @@ Output: Black Win: 50.5%, Draw: 4.1%, White Win: 45.5%
 
 
 ## Author  
-**Dimitris Kaisaris**  
-- Portfolio: [dimkaisaris.github.io/portfolio](https://dimkaisaris.github.io/portfolio)  
-- Data science & chess enthusiast  
+**Dimitris Kaisaris**    
