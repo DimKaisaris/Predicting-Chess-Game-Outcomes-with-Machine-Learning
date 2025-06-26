@@ -1,7 +1,7 @@
 # Predicting-Chess-Game-Outcomes-with-Machine-Learning
 
 ## Project Overview  
-This project investigates and predicts the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
+In this project I investigate and predict the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
 
 **Key Goals:**  
 - Understand how player Elo, time formats, and openings affect outcomes  
@@ -9,19 +9,18 @@ This project investigates and predicts the outcomes of chess games using machine
 - Evaluate feature importance and model performance across scenarios  
 - Build benchmark dummy models based on theoretical expectations  
 
-**Tools Used:** Python (Pandas, Scikit-learn, Seaborn, Matplotlib), Jupyter, Power Query
+**Tools Used:** Python (Pandas, Scikit-learn, TensorFlow, Numpy, Matplotlib), Jupyter, Power Query
 
 ---
 
-## Dataset Details  
-Games were scraped from Lichess and included top-level players like Magnus Carlsen, with features such as:
-- `Result` (White win, Black win, Draw)
-- `WhiteElo`, `BlackElo`, and Elo difference
-- `Time_format` (bullet, blitz, rapid, classical)
-- `Opening_name` (grouped into 50 logical classes)
-- `Termination` type (normal, timeout, abandoned)
-- `Increment_binary` and custom columns like `Elo_Dif_Range` and `Score`
+## Core 
+The structure of the project is : 
+1. Exploratory Data Analysis   
+2. Classification Models 
+3. Regression Models
+4. Sample Predictions
 
+All the details are reported in the following pdf : 
 ---
 
 ## Exploratory Data Analysis  
@@ -78,12 +77,6 @@ Output: Black Win: 50.5%, Draw: 4.1%, White Win: 45.5%
 
 ---
 
-## Hypothesis Testing  
-Chi-square tests were performed to validate statistically significant patterns. Example:
-- Players with a 400+ Elo edge lose significantly more often in Blitz vs. other formats (p < 0.0001)
-- Openings like the Sicilian did **not** show statistically higher loss rates
-
----
 
 ## Files & Code Structure  
 - 📄 Full PDF report: **[Final_05.05.2025.pdf](./Final_05.05.2025.pdf)**  
