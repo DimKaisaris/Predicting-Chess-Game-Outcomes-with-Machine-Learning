@@ -28,7 +28,7 @@ Structure of the project:
 ## Here are some brief highlights:
 
 ## Exploratory Data Analysis  
-The full EDA was conducted in Jupyter using Pandas, Matplotlib and Seaborn. Key findings:
+The full EDA was conducted in Jupyter using Pandas, Matplotlib and NumPy. Key findings:
 
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
 2. **Draw Rate Anomalies:** High draw rate below 1000 Elo , possibly due to stalemates and repetition  
