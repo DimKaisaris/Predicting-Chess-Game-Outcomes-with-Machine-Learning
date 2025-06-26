@@ -1,7 +1,7 @@
 # Predicting-Chess-Game-Outcomes-with-Machine-Learning 
 
 ## Project Overview  
-In this project I investigate and predict the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
+In this project, I investigate and predict the outcomes of chess games using machine learning techniques. Drawing from over 168,000 games on Lichess.org  the project applies extensive Exploratory Data Analysis (EDA), classification, and regression modeling to uncover patterns and build predictive models.
 
 **Key Goals:**  
 - Understand how player Elo, time formats, and openings affect outcomes  
@@ -9,7 +9,7 @@ In this project I investigate and predict the outcomes of chess games using mach
 - Evaluate feature importance and model performance across scenarios  
 - Build benchmark dummy models based on theoretical expectations  
 
-**Tools Used:** Python (Pandas, Scikit-learn, TensorFlow, Numpy, Matplotlib), Jupyter, Power Query
+**Tools Used:** Python (Pandas, Scikit-learn, TensorFlow, NumPy, Matplotlib), Jupyter, Power Query
 
 ---
 
@@ -20,18 +20,18 @@ Structure of the project:
 3. Regression Models
 4. Sample Predictions
 
-- 📄 Full PDF report: **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**   
+- 📄 Full report (PDF): **[Final_05.05.2025.pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**   
 - 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**  
   
 ---
 
-## Some Brief Findings:
+## Here are some brief highlights:
 
 ## Exploratory Data Analysis  
 The full EDA was conducted in Jupyter using Pandas, Matplotlib and Seaborn. Key findings:
 
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
-2. **Draw Rate Anomalies:** High draw rate below 1000 Elo (!), possibly due to stalemates and repetition  
+2. **Draw Rate Anomalies:** High draw rate below 1000 Elo , possibly due to stalemates and repetition  
 3. **Opening Insights:** The Scandinavian Defense surprisingly outperforms for Black under 2000 Elo  
 4. **Blitz Surprise:** Black outperforms White in Blitz in lower Elo ranges 
    
