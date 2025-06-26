@@ -20,7 +20,7 @@ The structure of the project is :
 3. Regression Models
 4. Sample Predictions
 
-All the details are reported in the following pdf : 
+All the details are reported in the following **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**
 ---
 
 ## Exploratory Data Analysis  
