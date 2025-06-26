@@ -21,10 +21,9 @@ Structure of the project:
 4. Sample Predictions
 
 - 📄 Full PDF report: **[pdf](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/blob/main/images/Final_05.05.2025.pdf)**   
-- 📁 Jupyter notebooks: **[here}()
-- 📊 Data file: `data_ML.csv` (cleaned dataset)  
-- 📘 Prediction results and dummy models included in `Part2_class_...ipynb` notebooks  
+- 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**
 ---
+
 
 ## Exploratory Data Analysis  
 The full EDA was conducted in Jupyter using Matplotlib and Seaborn. Key findings:
