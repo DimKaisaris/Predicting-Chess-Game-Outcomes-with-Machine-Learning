@@ -25,7 +25,7 @@ Structure of the project:
   
 ---
 ## Exploratory Data Analysis  
-In this part I used pandas, numpy nad matplotlib to perform EDA and answer key questions about the dataset. Key findings:
+Using pandas, NumPy, and Matplotlib, I performed in-depth EDA to explore patterns and relationships in the dataset. Some key discoveries:
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
 2. **Draw Rate Anomalies:** High draw rate below 1000 Elo , possibly due to stalemates and repetition  
 3. **Opening Insights:** The Scandinavian Defense surprisingly outperforms for Black under 2000 Elo  
@@ -34,7 +34,7 @@ In this part I used pandas, numpy nad matplotlib to perform EDA and answer key q
 ---
 
 ## Classification Models  
-The following classification models were trained using Scikit-learn:
+I built preprocessing pipelines and trained several models using Scikit-learn, tuning them via GridSearchCV and RandomizedSearchCV. Below are the best performers:
 
 | Model                  | Accuracy |
 |------------------------|----------|
@@ -52,7 +52,10 @@ The highest-performing classifiers (Random Forest, AdaBoost) outperformed dummy 
 ---
 
 ## Regression Models  
-Framing the problem as a regression (Score = 1 for white win, 0.5 for draw, 0 for black win), we applied:
+I reframed the problem as a regression task by modeling the score as:
+1 = White win, 0.5 = Draw, 0 = Black win.
+
+Alongside standard regressors, I implemented a custom model inspired by the Elo expected outcome formula — and it performed admirably!
 
 | Model                     | MSE     |
 |---------------------------|---------|
@@ -62,18 +65,19 @@ Framing the problem as a regression (Score = 1 for white win, 0.5 for draw, 0 fo
 | Best_b_Regressor (custom) | 0.2269  |
 | Dummy (mean) Regressor    | 0.235   |
 
-The custom `Best_b_Regressor`, based on tuning the Elo expected outcome formula, ranked among the top 5.
+The Best_b_Regressor cleverly tuned the Elo formula to boost predictive power — a tiny tweak, a nice payoff.
 
 ---
 
-## Sample Predictions  
-We used `.predict_proba` from our best classifier to generate probabilistic outputs:
+## Sample Predictions 
+In the final part, I reflected on the outcomes and tested predictions using .predict_proba() from the best classifier:
 
 ```python
 Input: WhiteElo=2066 | BlackElo=2108 | Opening=Queen's Gambit | Format=Bullet
 Output: Black Win: 50.5%, Draw: 4.1%, White Win: 45.5%
 ```
-
+These probability-based predictions provide valuable insights — especially for tight matchups.
+Overall, this was a fun and successful machine learning journey through the world of chess!
 ---
 
 
