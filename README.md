@@ -24,17 +24,13 @@ Structure of the project:
 - 📁 Jupyter notebooks: **[here](https://github.com/DimKaisaris/Predicting-Chess-Game-Outcomes-with-Machine-Learning/tree/main/python%20code)**  
   
 ---
-
-## Here are some brief highlights:
-
 ## Exploratory Data Analysis  
-The full EDA was conducted in Jupyter using Pandas, Matplotlib and NumPy. Key findings:
-
+In this part I used pandas, numpy nad matplotlib to perform EDA and answer key questions about the dataset. Key findings:
 1. **Outcome Distribution:** White wins ~49%, Black ~45%, Draw ~6%  
 2. **Draw Rate Anomalies:** High draw rate below 1000 Elo , possibly due to stalemates and repetition  
 3. **Opening Insights:** The Scandinavian Defense surprisingly outperforms for Black under 2000 Elo  
 4. **Blitz Surprise:** Black outperforms White in Blitz in lower Elo ranges 
-   
+
 ---
 
 ## Classification Models  
